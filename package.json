@@ -1,0 +1,16 @@
+{
+  "name": "gaprou",
+  "version": "1.0.0",
+  "private": true,
+  "description": "گپ‌رو؛ سامانه جلسه آنلاین فارسی",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
