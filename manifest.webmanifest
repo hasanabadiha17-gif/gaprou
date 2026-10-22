@@ -1,0 +1,12 @@
+{
+  "name": "گپ‌رو | جلسه آنلاین",
+  "short_name": "گپ‌رو",
+  "description": "جلسه آنلاین فارسی با ویدیو، صدا، چت و اشتراک صفحه",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fff8f3",
+  "theme_color": "#8e6bd6"
+}
