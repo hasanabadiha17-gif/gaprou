@@ -38,6 +38,7 @@ function send(res, status, type, body) {
 const server = http.createServer((req, res) => {
   const u = new URL(req.url, 'http://localhost');
   if (req.method !== 'GET' && req.method !== 'HEAD') return send(res, 405, 'text/plain; charset=utf-8', 'Method Not Allowed');
+  if (u.pathname === '/googlecb5be73c533d6839.html') return send(res, 200, 'text/html; charset=utf-8', 'google-site-verification: googlecb5be73c533d6839.html');
   if (u.pathname === '/healthz') return send(res, 200, 'application/json; charset=utf-8', '{"ok":true,"service":"gaprou"}');
   if (u.pathname === '/robots.txt') {
     const body = 'User-agent: *\nAllow: /\nSitemap: ' + baseUrl(req) + '/sitemap.xml\n';
